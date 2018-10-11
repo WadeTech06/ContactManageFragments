@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cis470.lakiel.contactmanagefragments.ContactEntryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Full Name"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="44dp" />
+
+        <EditText
+            android:id="@+id/emailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Email address"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <EditText
+            android:id="@+id/pnumberText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter Phone Number"
+            android:inputType="phone"
+            android:singleLine="false"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+    </LinearLayout>
+
+</FrameLayout>

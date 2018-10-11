@@ -1,0 +1,32 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cis470.lakiel.contactmanagefragments.ContactDetailsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameDetailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:" />
+
+        <TextView
+            android:id="@+id/emailDetailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email" />
+
+        <TextView
+            android:id="@+id/numberDetailTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Number:" />
+    </LinearLayout>
+
+</FrameLayout>
